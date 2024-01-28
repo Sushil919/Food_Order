@@ -39,7 +39,7 @@
             <a href="#services">Services</a>
             <a href="#recipes">Food</a>
             <a href="#testimonials">Reviews</a>
-            <a href="">Contact</a>
+            <a href="#footer">Contact</a>
             <span class="close d-flex"><i class="bx bx-x"></i></span>
           </ul>
 
@@ -91,22 +91,23 @@
 
       <!--=============== SignIn Form ===============-->
       <div class="wrapper">
-        <form action="" class="form">
+        <div id="error"></div>
+        <form action="/" class="form" id="form" method="GET">
           <h2>SIGN IN</h2>
 
           <div class="control">
-            <label for="">Enter Email:</label>
-            <input type="email" placeholder="Enter Your Email" />
+            <label for="email">Enter Email:</label>
+            <input id="email" type="email" placeholder="Enter Your Email" required />
           </div>
           <div class="control">
-            <label for="">Password:</label>
-            <input type="password" placeholder="Password" />
+            <label for="password">Password:</label>
+            <input id="password" type="password" placeholder="Password" />
           </div>
           <div class="checkbox d-flex">
             <input type="checkbox" />
             <span>Remember Me</span>
           </div>
-          <button class="btn">Sign In</button>
+          <button type="submit" class="btn">Sign In</button>
           <div class="links">
             <span>Forgot Password? <a href="">Click Here</a></span>
             <span>Don't Have An Account? <a href="">Create One</a></span>
@@ -348,7 +349,7 @@
       </div>
     </section>
     <!--=============== Footer ===============-->
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="row container">
         <div class="col">
           <div class="logo d-flex">
