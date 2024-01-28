@@ -146,6 +146,7 @@ img {
   font-size: 2rem;
   margin-right: 1.5rem;
   position: relative;
+  cursor: pointer;
 }
 .navbar .cart-icon span {
   position: absolute;
@@ -157,6 +158,7 @@ img {
   border-radius: 50%;
   font-size: 1.2rem;
   font-weight: 600;
+  /* cursor: pointer; */
 }
 
 .btn {
